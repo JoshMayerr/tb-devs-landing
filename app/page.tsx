@@ -1,95 +1,57 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    <div id="maincontent">
+      <h1>devs.tollbit.com</h1>
+      <dl>
+        <dt>
+          <a href="https://build.tollbit.com">Dashboard</a>
+        </dt>
+        <dt>
+          <a href="https://docs.tollbit.com">Docs</a>
+        </dt>
+        <dt>
+          <a href="https://tollbit.com">tollbit.com</a>
+        </dt>
+      </dl>
+      <p>
+        Websites and complex UI are extra fluff in the emerging world of AI
+        agents. We envision an internet where our personal agents can freely
+        roam the internet, answering questions and acting on our behalf. They
+        don't care how buttons look, they want the underlying data presented on
+        the page.
+      </p>
+      <p>
+        Tollbit is aiming to power this application layer of AI. We provide
+        scalable and liscensed access to realtime data from primary sources
+        meant to perfectly integrate with your inference (or training) time data
+        uses like RAG. Stop paying and wasting time scraping. Use Tollbit to go
+        directly to the data instead.
+      </p>
+      <p>Updates:</p>
+      <ul>
+        <li>December 2023:</li>
+        <li>October 2023:</li>
+      </ul>
+      <p>Contact us:</p>
+      <ul>
+        <li>
+          To join us as we build the agent facing layer of the Internet, please
+          email <a href="mailto:team@tollbit.com">team@tollbit.com</a>
+        </li>
+        <li>
+          On <a href="https://www.linkedin.com/company/tollbit/">LinkedIn</a>
+        </li>
+        <li>
+          On X: <a href="https://x.com/tollbitofficial">@TollbitOfficial</a>
+        </li>
+      </ul>
+      <p>
+        <a href="https://www.axios.com/2024/03/05/tollbit-8-million-publisher-ai-marketplace">
+          We
+        </a>{" "}
+        are proud and thankful to partner with AIX, Lerer Hippeau, Sunflower
+        Capital, and Operator Collective.
+      </p>
+    </div>
   );
 }
