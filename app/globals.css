@@ -10,8 +10,14 @@ h3 {
   margin-bottom: 4px;
 }
 
-.top-nav {
-  flex-direction: row;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-item {
+  margin-right: 20px;
 }
 
 #maincontent {

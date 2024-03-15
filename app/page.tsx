@@ -1,18 +1,20 @@
 export default function Home() {
   return (
     <div id="maincontent">
-      <h1>Tollbit Developers</h1>
-      <dl>
-        <dt>
-          <a href="https://build.tollbit.com">Dashboard</a>
-        </dt>
-        <dt>
-          <a href="https://docs.tollbit.com">Docs</a>
-        </dt>
-        <dt>
-          <a href="https://tollbit.com">tollbit.com</a>
-        </dt>
-      </dl>
+      <center>
+        <h1>Tollbit Developers</h1>
+        <dl className="navbar">
+          <dt>
+            <a href="https://tollbit.com">tollbit.com</a>
+          </dt>
+          <dt>
+            <a href="https://docs.tollbit.com">Docs</a>
+          </dt>
+          <dt>
+            <a href="https://build.tollbit.com">Dashboard</a>
+          </dt>
+        </dl>
+      </center>
       <p>
         Websites and complex UI are extra fluff in the emerging world of AI
         agents. We envision an internet where our personal agents can freely
@@ -41,7 +43,7 @@ export default function Home() {
           On <a href="https://www.linkedin.com/company/tollbit/">LinkedIn</a>
         </li>
         <li>
-          On X: <a href="https://x.com/tollbitofficial">@TollbitOfficial</a>
+          On <a href="https://x.com/tollbitofficial">X</a>
         </li>
       </ul>
       <p>
