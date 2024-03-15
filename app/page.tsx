@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div id="maincontent">
-      <h1>devs.tollbit.com</h1>
+      <h1>Tollbit Developers</h1>
       <dl>
         <dt>
           <a href="https://build.tollbit.com">Dashboard</a>
@@ -24,7 +24,7 @@ export default function Home() {
         scalable and liscensed access to realtime data from primary sources
         meant to perfectly integrate with your inference (or training) time data
         uses like RAG. Stop paying and wasting time scraping. Use Tollbit to go
-        directly to the data source instead.
+        directly to the data instead.
       </p>
       <p>Updates:</p>
       <ul>
