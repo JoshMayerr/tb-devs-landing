@@ -30,8 +30,7 @@ export default function Home() {
       </p>
       <p>Updates:</p>
       <ul>
-        <li>December 2023:</li>
-        <li>October 2023: </li>
+        <li>Febuary 2024: Funding announced</li>
       </ul>
       <p>Contact us:</p>
       <ul>
